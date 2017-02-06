@@ -1,0 +1,4 @@
+<div class="review">
+  <p><%= User.find(review.user_id).email %> wrote on <%= Product.find(review.product_id).name %></p>
+  <p><%= review.comment %></p>
+</div>
